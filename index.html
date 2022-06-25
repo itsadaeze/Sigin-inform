@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Sign-In Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text_box">
+            <h1>Learn to code by watching others</h1>
+            <p> See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+        </div>
+        <div class="float">
+            <div class="try_btn">
+                <button>Try it free 7 days <span>then $20/mo.thereafter </span></button>
+            </div>
+            <form name="myform" method="post" action="http://www.javatpoint.com/javascriptpages/valid.jsp" onsubmit="return validateform()" class="input_box">
+
+                <input type="text" name="firstname" placeholder="First Name" class="input_text" id="firstNAme"></br><span id="firstlocation" style="color:red"></span>
+                <input type="text" name="lastname" placeholder="Last Name"></br><span id="lastlocation" style="color:red"></span>
+                <input type="email" name="emailaddress" placeholder="Email Address"></br><span id="emaillocation" style="color:red"></span>
+                <input type="password" name="passwords" placeholder="Password">
+                </br><span id="passwordlocation" style="color:red"></span>
+                <button class="btn_2">CLAIM YOUR FREE TRAIL</button>
+                <footer> By clicking the button, you are agreeing to our <span>Terms and Services</span>
+                </footer>
+
+            </form>
+        </div>
+</body>
+
+</html>

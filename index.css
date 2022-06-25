@@ -1,0 +1,179 @@
+                                                            body {
+                                                                background-image: url("bg-intro-desktop.png");
+                                                                background-color: hsl(0, 100%, 74%);
+                                                                opacity: 1;
+                                                            }
+                                                            
+                                                            .container {
+                                                                align-content: center;
+                                                            }
+                                                            
+                                                            .text_box {
+                                                                margin-left: 4rem;
+                                                            }
+                                                            
+                                                            .text_box h1 {
+                                                                color: white;
+                                                                font-family: Poppins;
+                                                                width: 40%;
+                                                                font-weight: bolder;
+                                                                font-size: 50px;
+                                                                line-height: 52px;
+                                                            }
+                                                            
+                                                            .text_box p {
+                                                                color: rgb(253, 231, 231);
+                                                                font-family: Poppins;
+                                                                width: 40%;
+                                                                font-size: 15px;
+                                                                font-weight: 200;
+                                                            }
+                                                            
+                                                            .try_btn button {
+                                                                /* padding: 0.9rem 4.5rem; */
+                                                                background-color: hsl(256, 78%, 36%);
+                                                                border: hsl(256, 78%, 36%);
+                                                                border-radius: 9px;
+                                                                color: white;
+                                                                font-size: 14px;
+                                                                font-family: poppins;
+                                                                width: 80%;
+                                                                font-weight: 100;
+                                                                border-bottom: 7px solid hsl(240, 10%, 52%);
+                                                                margin-right: 5rem;
+                                                                height: 45px;
+                                                            }
+                                                            
+                                                            .try_btn button span {
+                                                                color: grey;
+                                                            }
+                                                            
+                                                            .input_box {
+                                                                width: 80%;
+                                                                height: 70vh;
+                                                                background-color: white;
+                                                                margin-top: 1rem;
+                                                                border-radius: 7px;
+                                                                padding-top: 0.5rem;
+                                                                border: white;
+                                                                box-shadow: rgb(8, 8, 8);
+                                                                border-bottom: 7px solid hsl(0, 0%, 71%);
+                                                                margin-right: 7rem;
+                                                            }
+                                                            
+                                                            input {
+                                                                margin-top: 1.5rem;
+                                                                width: 74%;
+                                                                height: 48px;
+                                                                margin-left: 1.4rem;
+                                                                padding: 0rem 1.7rem;
+                                                                border: 1px solid gray;
+                                                                border-radius: 6px;
+                                                                font-family: poppins;
+                                                            }
+                                                            
+                                                            .input_box button {
+                                                                width: 87%;
+                                                                height: 48px;
+                                                                margin-left: 1.4rem;
+                                                                margin-top: 1rem;
+                                                                font-family: poppins;
+                                                                background-color: hsl(154, 59%, 51%);
+                                                                border: hsl(154, 59%, 51%);
+                                                                border-radius: 6px;
+                                                                color: white;
+                                                                font-size: 15px;
+                                                                border-bottom: 4px solid hsl(154, 7%, 57%);
+                                                            }
+                                                            
+                                                            footer {
+                                                                font-size: 9px;
+                                                                text-align: center;
+                                                                margin-top: 0.4rem;
+                                                                font-family: poppins;
+                                                                color: gray;
+                                                            }
+                                                            
+                                                            footer span {
+                                                                font-size: 9px;
+                                                                text-align: center;
+                                                                margin-top: 0.4rem;
+                                                                font-family: poppins;
+                                                                color: red;
+                                                            }
+                                                            
+                                                            @media only screen and (max-width: 400px) {
+                                                                body {
+                                                                    background-image: url("bg-intro-mobile.png");
+                                                                    background-color: hsl(0, 100%, 74%);
+                                                                    opacity: 1;
+                                                                }
+                                                                .container {
+                                                                    width: 40%;
+                                                                    height: 110vh;
+                                                                }
+                                                                .text_box h1 {
+                                                                    color: white;
+                                                                    font-family: Poppins;
+                                                                    width: 300%;
+                                                                    font-weight: bolder;
+                                                                    font-size: 30px;
+                                                                    line-height: 33px;
+                                                                    margin-top: 6rem;
+                                                                }
+                                                                .text_box p {
+                                                                    color: rgb(253, 231, 231);
+                                                                    font-family: Poppins;
+                                                                    width: 350%;
+                                                                    font-size: 15px;
+                                                                    text-align: center;
+                                                                }
+                                                                .try_btn button {
+                                                                    padding-top: 1.8rem;
+                                                                    padding-bottom: 3.6rem;
+                                                                    padding-left: 5.4rem;
+                                                                    padding-right: 5.4rem;
+                                                                    background-color: hsl(256, 78%, 36%);
+                                                                    border: hsl(256, 78%, 36%);
+                                                                    border-radius: 9px;
+                                                                    color: white;
+                                                                    font-size: 14px;
+                                                                    font-family: poppins;
+                                                                    width: 243%;
+                                                                    font-weight: 100;
+                                                                    border-bottom: 7px solid hsl(240, 10%, 52%);
+                                                                    /* margin-right: 9rem; */
+                                                                    height: 60px;
+                                                                    margin-top: 3rem;
+                                                                }
+                                                                .input_box {
+                                                                    width: 240%;
+                                                                    height: 50vh;
+                                                                    background-color: white;
+                                                                    margin-top: 1rem;
+                                                                    border-radius: 9px;
+                                                                    padding-top: 0.5rem;
+                                                                    border: white;
+                                                                    box-shadow: rgb(8, 8, 8);
+                                                                    border-bottom: 7px solid hsl(0, 0%, 71%);
+                                                                    margin-right: 7rem;
+                                                                }
+                                                                input {
+                                                                    margin-top: 1.5rem;
+                                                                    width: 69%;
+                                                                    height: 48px;
+                                                                    margin-left: 1.7rem;
+                                                                    padding: 0rem 1.7rem;
+                                                                    border: 1px solid gray;
+                                                                    border-radius: 6px;
+                                                                    font-family: poppins;
+                                                                }
+                                                                footer {
+                                                                    font-size: 9px;
+                                                                    margin-top: 0.4rem;
+                                                                    font-family: poppins;
+                                                                    color: gray;
+                                                                    width: 200px;
+                                                                    margin-left: 4rem;
+                                                                }
+                                                            }
